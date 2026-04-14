@@ -105,7 +105,7 @@ class Tile3(ft.Container):
 
         # --- 6. Final Layout --- (UNTOUCHED)
         self.content = ft.Stack([
-            ft.Container(content=ft.Text("Dynamic Torque (Nm)", weight="bold", color="black", size=14, no_wrap=True), rotate=ft.Rotate(angle=-1.5708), left=-125, top=185, width=300, alignment=ft.Alignment(0, 0)),
+            ft.Container(content=ft.Text("Peak Dynamic Torque (Nm)", weight="bold", color="black", size=14, no_wrap=True), rotate=ft.Rotate(angle=-1.5708), left=-125, top=185, width=300, alignment=ft.Alignment(0, 0)),
             ft.Container(
                 content=ft.Column([
                     ft.Container(content=ft.Text(t, size=12, color="black", weight="bold"), height=36, alignment=ft.Alignment(1, 0))

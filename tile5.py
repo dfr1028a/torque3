@@ -72,8 +72,8 @@ class Tile5(ft.Container):
         # --- The Absolute Layout (Clean References Only) ---
         self.content = ft.Stack([
             # STI
-            ft.Container(bgcolor="#004e92", width=100, height=45, left=20, top=25 + vertical_offset, border_radius=4),
-            ft.Text("STI", size=28, weight="bold", color="white", left=35, top=25 + vertical_offset),
+            ft.Container(bgcolor="#004e92", width=100, height=45, left=20, top=23 + vertical_offset, border_radius=4),
+            ft.Text("STI", size=28, weight="bold", color="white", left=35, top=23 + vertical_offset),
             ft.Container(content=data_circle(self.sti_circle_text, "#004e92"), left=90, top=9 + vertical_offset),
             ft.Text("DYNAMIC TORQUE", size=12, weight="bold", color="#000000", left=196, top=15 + vertical_offset),
             ft.Container(content=self.torque_val_text, left=196, top=30 + vertical_offset),
